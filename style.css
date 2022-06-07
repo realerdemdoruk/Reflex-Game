@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: violet;
+    width: 1200px;
+}
+
+#title { padding-top: 2rem; }
+
+#random {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: chartreuse;
+}
+
+#random:hover { background-color: green; }
+
+#score { display: none; }
+
+#start {
+    width: 10%;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+#countdown { margin-top: 2rem; }
+
+#print { margin-top: 30%; }
+
+#topScore {
+    float: right;
+    margin: 10px 50px 0 0;
+}
