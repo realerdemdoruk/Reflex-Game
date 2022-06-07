@@ -26,9 +26,10 @@ body {
     height: 80px;
     position: absolute;
     background-color: chartreuse;
+    border-radius: 15%;
 }
 
-#random:hover { background-color: green; }
+#random:hover { background-color: lime; }
 
 #score { display: none; }
 
